@@ -7,6 +7,7 @@ public class Sound {
 
     private String mAssetPath;
     private String mName;
+    private Integer mSoundId;
 
     public Sound(String assetPath) {
         mAssetPath = assetPath;
@@ -16,6 +17,12 @@ public class Sound {
     }
     // Plus auto generated getters and setters.
 
+    public Integer getSoundId() {
+        return mSoundId;
+    }
+    public void setSoundId(Integer soundId) {
+        mSoundId = soundId;
+    }
 
     public String getAssetPath() {
         return mAssetPath;
